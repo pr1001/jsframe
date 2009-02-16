@@ -1,0 +1,35 @@
+﻿<h2>Welcome</h2>
+<p>
+	This is the a blank install of jsFrame version #{vars.version}! Feel free to poke around and check it out. You can <a href="http://github.com/pr1001/jsframe/tree/master">download the source code</a> from GitHub or via this site - it's just javascript after all!
+</p>
+
+<h2>jsFrame - what's that?</h2>
+<p>
+	jsFrame is a <a href="http://en.wikipedia.org/wiki/Web_application_framework">web application framework</a> written entirely in Javascript and HTML by <a href="http://www.bubblefoundry.com">Peter Robinett</a> over the course of a lazy Sunday. The framework was simply intended as a programming exercise and is only at version #{vars.version}, so it's surely not production-ready! That being said, I'm putting it out there in the hope that other people can benefit from it and if it strikes there fancy can grow beyond its modest origins.
+</p>
+<p>
+	Yes, I know there's <a href="http://code.google.com/p/jsframe/">another jsFrame</a>. But I had chosen the name when I found them and they don't have any code to download, so there!
+</p>
+
+<h2>Download</h2>
+<p>You can download the latest source code at <a href="http://github.com/pr1001/jsframe/tree/master">http://github.com/pr1001/jsframe/tree/master</a> or clone it using <code>git</code> via <code>git://github.com/pr1001/jsframe.git</code>.
+
+<h2>Details</h2>
+<p>
+  jsFrame uses the <a href="http://en.wikipedia.org/wiki/Model-view-controller">MVC pattern</a>, which means that it should be easy to get going and write nice code. It makes heavy use of <a href="http://www.prototypejs.org">Prototype</a>, so if you're used to it you'll feel right at home. jQuery, MooTools, and YUI fans are welcome to take a shot at forking the code or abstracting out Prototype! I've spent the last year working in <a href="http://www.cakephp.org">CakePHP</a>, so I'm sure its styles (and by extension, <a href="http://www.rubyonrails.org">Ruby on Rails</a>) have rubbed off on jsFrame's design. Like those framework, jsFrame favors convention over configuration.
+</p>
+<p>
+	jsFrame tries to be efficient as possible and load files only when needed, while still giving you the benefits of playing within the <code>jsFrame</code> namespace. All hyperlinks are automatically sent through jsFrame's routing system without the need for a page reload. The routing system is moderately flexible and there is an Apache <code>.htaccess</code> configuration enabling pretty urls included.
+</p>
+
+<h2>To-Do</h2>
+<p>Where to start! There are lots of things that need serious work:</p>
+<ul>
+  <li>Add datastores to models - Currrently there are no database backends and both local (HTML 5 sqlite-based querying) and remote (AJAX-based querying) would be useful.</li>
+<li>Improved routing - While both path (e.g. "/") and parameter based (e.g. "controller=Pages&action=index") routing work, the regexes and the parameter extraction process need work.</li>
+<li>Error handling - The code currently falls apart with anything but the most minor error. Not good!</li>
+<li>Logging - Ways to log errors and user actions would be very useful. Logging to the browser (e.g. <a href="http://getfirebug.com">Firebug's</a> <a href="http://getfirebug.com/console.html">console.log()</a> method) or to disk (e.g. AJAX-based POSTs) would be nice.
+</li>
+<li>Get rid of all those <code>eval()</code>'s - I like variable variable names and couldn't figure out an easy way to use them other than by using lots of <code>eval()</code> statements. I'm sure a javascript guru can correct my errant ways.</li>
+</ul>
+</p>
