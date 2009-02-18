@@ -10,7 +10,7 @@
 		{
 			name: 'jsFrame Test Site',
 			rewriteEnabled: true,
-			basepath: '/jsframe',
+			basepath: 'http://localhost:8080/jsframe',
 		},
 		models: ['Model'],
 		controllers: ['Controller', 'Pages'],
