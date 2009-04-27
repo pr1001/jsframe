@@ -11,6 +11,6 @@
 		{
 			jsFrame.rendering.vars = {};
 		}
-		eval('jsFrame.rendering.vars.' + key + ' = ' + value.toJSON());
+		jsFrame.rendering.vars[key] = value.toJSON();
 	}
 });
