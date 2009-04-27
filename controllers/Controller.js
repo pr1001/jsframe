@@ -11,6 +11,6 @@
 		{
 			jsFrame.rendering.vars = {};
 		}
-		jsFrame.rendering.vars[key] = value.toJSON();
+		jsFrame.rendering.vars[key] = value;
 	}
 });
