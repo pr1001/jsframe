@@ -3,6 +3,7 @@
 	{
 		this.name = 'Pages';
 	},
+	
 	index: function()
 	{
 		jsFrame.rendering.view = 'index';
@@ -11,6 +12,7 @@
 		this.setVar({dataClasses: 'inactive'});
 		this.setVar({version: jsFrame.settings.version});
 	},
+	
 	about: function()
 	{
 		jsFrame.rendering.title = jsFrame.settings.site.name + ' - About';
@@ -35,7 +37,7 @@
 		else
 		{
 			this.setVar({data_form: ''});
-  		this.setVar({data_display: 'display: none;'});
+	  		this.setVar({data_display: 'display: none;'});
 		}
 	},
 	
