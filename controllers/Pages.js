@@ -6,7 +6,6 @@
 	
 	index: function()
 	{
-		jsFrame.rendering.view = 'index';
 		this.setVar({indexClasses: 'active'});
 		this.setVar({aboutClasses: 'inactive'});
 		this.setVar({dataClasses: 'inactive'});
