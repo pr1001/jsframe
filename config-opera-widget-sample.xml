@@ -1,0 +1,12 @@
+<widget id="com.bubblefoundry.jsframe.widget.opera" dockable="no">
+  <widgetname>jsFrame</widgetname>
+  <description>Opera widget from the jsFrame test install.</description>
+  <width>320</width>
+  <height>240</height>
+  <author>
+    <name>Peter Robinett</name>
+    <organization>Bubble Foundry</organization>
+    <link>http://www.bubblefoundry.com</link>
+    <email>thefoundry@bubblefoundry.com</email>
+  </author>
+</widget>
