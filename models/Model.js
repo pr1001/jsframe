@@ -4,3 +4,5 @@
 		this.name = 'Model';
 	}
 });
+
+jsFrame.models.Model = new Model();

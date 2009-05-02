@@ -45,3 +45,5 @@
 		jsFrame.rendering.view = 'httpcodes/' + params.errorCode;
 	}
 }); 
+
+jsFrame.controllers.Pages = new Pages();

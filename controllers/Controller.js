@@ -14,3 +14,5 @@
 		jsFrame.rendering.vars[key] = value;
 	}
 });
+
+jsFrame.controllers.Controller = new Controller();
